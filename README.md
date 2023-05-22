@@ -1,5 +1,5 @@
 # fullstack-project2
-A web app using REST API
+A web server using REST API
 
 Esittelyvideo: https://youtu.be/RNUbvRmux6I
 
