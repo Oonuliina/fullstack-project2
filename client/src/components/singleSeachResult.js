@@ -22,10 +22,10 @@ export const OneSearchResult = ({ result, id, deleteTrack }) => {
             {/* tarkistetaan kuva CheckImage komponenttia kutsumalla */}
             <CheckImage album={result.album}/>
             <div className='description'>
-                <div>Title: {result.name}</div>
-                <div>Artist: {result.artist}</div>
-                <div>Album: {result.album}</div>
-                <div>Year: {result.year}</div>
+                <div> {result.name}</div>
+                <div> {result.artist}</div>
+                <div> {result.album}</div>
+                <div> {result.year}</div>
             </div>
         </div> 
     </>
