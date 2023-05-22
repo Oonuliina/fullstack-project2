@@ -1,10 +1,6 @@
 import React from "react";
 import "./styles/singleSearchResult.css"
 import { CheckImage } from "./checkImage";
-import { Card } from "react-bootstrap";
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
 
 export const OneSearchResult = ({ result, id, deleteTrack }) => {
     return (
