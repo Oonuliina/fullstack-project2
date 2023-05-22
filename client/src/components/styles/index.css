@@ -1,0 +1,39 @@
+:root {
+    --primary: #5D95C4;
+    --secondary: #D48CAE;
+    --light: #FFFFFF;
+    --light-alt: #d9d9d9;
+    --dark: #1E1E1E;
+    --dark-alt: #2A2A2A;
+}
+
+
+#root {
+    background-color: var(--dark);
+    color: var(--primary);
+}
+
+
+.main-header {
+    font-family: FuturaDisPEE, sans-serif;
+    padding-top: 150px;
+    
+}
+
+.header {
+    font-size: 70px;
+    font-weight: normal;   
+}
+
+.subheader {
+    font-weight: normal;
+    font-size: 30px;
+}
+
+.search-section {
+    height: 1000px;
+}
+
+body, html {
+    background-color: var(--dark);
+}

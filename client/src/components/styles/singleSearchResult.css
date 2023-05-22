@@ -1,0 +1,63 @@
+
+
+.track {
+    margin: 20px;
+    background-color: #2A2A2A;
+    padding: 5px 20px 15px 20px;
+    border-radius: 15px;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight:600;
+    color: #FFFFFF;
+    max-width: 240px;
+    transition-duration: 0.3s;
+    cursor: context-menu;
+    height: 400px;
+}
+
+.track:hover {
+    background-color: #3a3a3a;
+    transition-duration: 0.3s;
+}
+
+.description {
+    max-width: 200px;
+}
+
+.delete, .edit {
+    text-align: end;
+}
+
+.buttons {
+    display: flex;
+    padding-left: 160px;
+
+}
+
+img {
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #272626;
+}
+
+.track:hover img {
+    box-shadow: 5px 5px 5px #313131;
+}
+
+.pencil {
+    margin-top: 3px;
+}
+
+.pencil:hover, .delete-icon:hover {
+    fill: #c37398;
+}
+
+.pencil:hover {
+    transform: scale(1.2);
+    transition-duration: 0.1s;
+}
+
+.delete-icon:hover {
+    transform: scale(1.2);
+    transition-duration: 0.1s;
+}
+

@@ -1,0 +1,33 @@
+GET http://localhost:3030/api/getall
+
+###
+
+POST http://localhost:3030/api/add
+Content-Type: application/json
+
+{
+    "name": "Bel Air",
+    "artist": "Lana Del Rey",
+    "album": "Born to Die: The Paradise Edition",
+    "year": 2012
+}
+
+###
+
+GET http://localhost:3030/api/64620493b854c6df22b525bc
+
+###
+
+DELETE http://localhost:3030/api/delete/6462159c1c67284b258d79c3
+
+###
+PUT http://localhost:3030/api/update/64620493b854c6df22b525bc
+Content-Type: application/json
+
+{
+    "name": "Born to Die",
+    "artist": "Lana Del Rey",
+    "album": "Born to Die",
+    "year": 2012
+}
+
