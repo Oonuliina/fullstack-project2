@@ -6,10 +6,10 @@ POST http://localhost:3030/api/add
 Content-Type: application/json
 
 {
-    "name": "Bel Air",
+    "name": "White Mustang",
     "artist": "Lana Del Rey",
-    "album": "Born to Die: The Paradise Edition",
-    "year": 2012
+    "album": "Lust for Life",
+    "year": 2017
 }
 
 ###
