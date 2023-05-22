@@ -7,7 +7,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-const API = "http://localhost:3030/api";
+const API = "https://ldr-server.onrender.com/api";
 
 function App() {
     // usestate hook jota käytetään hakutulosten renderöintiin
